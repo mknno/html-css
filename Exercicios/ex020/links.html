@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* SELETORES PERSONALIZADOS
+
+          #  = id
+          .  = Class
+          :  = pseudo-class
+          :: = peseudo-element
+          >  = children
+
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: rgb(104, 160, 160);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: rgb(115, 104, 214);
+        }
+        a:hover{
+            text-decoration: underline;
+            color: rgb(130, 224, 224);
+        }
+    
+       
+       a:active{
+               color: rgb(48, 41, 54);
+           }
+           .especial{
+        background-color: rgb(226, 243, 243);
+      }
+      
+        a::after{
+            content: ' [Link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: aqua(255, 0, 179);
+        }
+      
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/mknno" target="_blank" class="especial">github.com/mknno</a></li>
+        <li><a href="https://www.youtube.com" target="_blank">youtube.com</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank">Cursoemvideo.com</a></li>
+    </ul>
+</body>
+</html>

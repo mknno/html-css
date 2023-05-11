@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>tenta abrir esse site em varios dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/img_blue_small.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/img_purple_medium.png" type="image/png">  
+        <img src="imagens/Img_green_big.png" alt="imagem rlexivel">
+    </picture>
+
+    <h1>aprendendo a coloca audio no HTML</h1>
+    <P>Vamos colocar alguns audios na pagina</P>
+    <audio src="media/Song1.mp3"controls play></audio><br>
+    <audio src="media/song2.mp3" controls play></audio>
+
+</body>
+</html>
